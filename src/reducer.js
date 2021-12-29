@@ -1,4 +1,4 @@
-import { act } from "react-dom/test-utils";
+
 const reducer = (state, action) => {
   if (action.type === "CLEAR_CART") {
     return { ...state, cart: [] };
